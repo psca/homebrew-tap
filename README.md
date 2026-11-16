@@ -5,6 +5,7 @@
 A native macOS training calendar for intervals.icu. Requires macOS 26 or later; supports Apple Silicon and Intel.
 
 ```sh
+brew tap psca/tap
 brew install --cask psca/tap/icuity
 ```
 
