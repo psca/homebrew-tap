@@ -9,6 +9,8 @@ brew tap psca/tap
 brew install --cask psca/tap/icuity
 ```
 
+If Homebrew reports an untrusted cask, run `brew trust --cask psca/tap/icuity` and retry the install. This trusts the cask metadata only; macOS Gatekeeper checks still apply.
+
 This is an **unsigned public-testing preview**, not Developer ID signed or notarized by Apple. macOS may block first launch. If you trust the app, attempt to open it, then use System Settings > Privacy & Security > Open Anyway if offered. Homebrew does not bypass this check.
 
 [Source and releases](https://github.com/psca/Icuity)
