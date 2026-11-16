@@ -2,10 +2,10 @@ cask "icuity" do
   version "0.1.0"
   sha256 "ec6d5e28bc3ad2fcffb70aed93b6942918dc8c2e89bebc9d1bfc1a37254dabf4"
 
-  url "https://github.com/psca/Icuity/releases/download/v#{version}/Icuity-#{version}-universal.dmg"
+  url "https://github.com/psca/icuity-releases/releases/download/v#{version}/Icuity-#{version}-universal.dmg"
   name "Icuity"
   desc "Native training calendar for intervals.icu"
-  homepage "https://github.com/psca/Icuity"
+  homepage "https://github.com/psca/icuity-releases"
 
   depends_on macos: :tahoe
 
