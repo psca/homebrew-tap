@@ -1,6 +1,6 @@
 cask "icuity" do
-  version "0.2.0"
-  sha256 "a07a5d1927a9bf8238b79fb9a0f5df949a1640060599957ef8e0043bb518965c"
+  version "0.2.1"
+  sha256 "faf92cc902d3b670d69fb8ccf805001fe2e4f097b28ab9e5e9a1170054554c09"
 
   url "https://github.com/psca/icuity-releases/releases/download/v#{version}/Icuity-#{version}-universal.dmg"
   name "Icuity"
